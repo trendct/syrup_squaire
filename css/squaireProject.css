@@ -1,0 +1,49 @@
+/*
+*/
+
+.map-project-container {
+	border-bottom: 1px solid lightgray;
+	padding-bottom: 10px;
+}
+
+.map-tab {
+
+	color: white;
+	background-color: gray;
+	border: 1px solid gray;
+	border-radius: 4px;
+	float:left;
+	cursor: pointer;
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-right: 4px;
+}
+
+.map-tab:hover, .map-tab.selected {
+	background-color: white;
+	color: gray;
+}
+
+.map-tab.selected {
+	cursor: inherit;
+}
+
+.no-margin{
+	margin-top: 0px;
+
+}
+
+.map-tab-container {
+	padding-bottom: 10px;
+}
+.map-sourceline, .map-byline {
+	color: gray;
+}
+
+.map-sourceline {
+	float:left;
+}
+.map-byline {
+	float:right;
+	text-transform: uppercase;
+}
